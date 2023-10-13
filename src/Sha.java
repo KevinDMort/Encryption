@@ -1,6 +1,6 @@
 import java.security.*;
 
-public class Sha1 {
+public class Sha {
 
 
     MessageDigest md = MessageDigest.getInstance("SHA-1");
@@ -15,8 +15,6 @@ public class Sha1 {
         String shaHash = hexString.toString();
         return shaHash;
     }
-
-
-    public Sha1() throws NoSuchAlgorithmException {
+    public Sha() throws NoSuchAlgorithmException {
     }
 }
